@@ -1,0 +1,9 @@
+[server]
+# Bind all addresses
+hosts = 0.0.0.0:80
+
+[auth]
+type = http_x_remote_user
+
+[storage]
+filesystem_folder = /srv
